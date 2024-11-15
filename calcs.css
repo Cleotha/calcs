@@ -1,6 +1,9 @@
+body{
+    background-color: #1C1C1C;
+}
 .container{
-    width: 90%;
-    padding: 0 5%;
+    width: 100%;
+    padding: 0;
     text-align: center;
     background-color: #1C1C1C;
 }
@@ -12,10 +15,11 @@
     font-size: 50px;
 }
 input{
-    width: 21%;
-    height: 5.2rem;
+    width: 19%;
+    height: 5.5rem;
     border-radius: 50%;
     margin-left: 2%;
+    text-align: center;
     border: none;
     margin-bottom: 1rem;
     font-weight: 100;
@@ -25,7 +29,7 @@ input{
 }
 .zero{
     width: 44%;
-    border-radius: 40px;
+    border-radius: 50px;
     text-align: left;
     padding-left: 5%;
 }
@@ -38,20 +42,20 @@ input{
 }
 @media(min-width: 600px) {
     input{
-        width: 15%;
-        height: 5rem;
+        width: 12%;
+        height: 6rem;
     }
     .zero{
-        width: 33%;
+        width: 26%;
     }
 }
 @media(min-width: 1000px) {
     input{
-        width: 10%;
+        width: 8%;
         height: 6rem;
     }
     .zero{
-        width: 22.5%;
+        width: 18%;
     }
 }
 
