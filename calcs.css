@@ -8,7 +8,7 @@ body{
     background-color: #1C1C1C;
 }
 .value{
-    width: 65%;
+    width: 70%;
     border-radius: 0;
     background-color: #1C1C1C;
     text-align: end;
@@ -16,14 +16,14 @@ body{
 }
 input{
     width: 19%;
-    height: 5.5rem;
+    height: 5rem;
     border-radius: 50%;
     margin-left: 2%;
     text-align: center;
     border: none;
     margin-bottom: 1rem;
     font-weight: 100;
-    font-size: xx-large;
+    font-size: x-large;
     color: aliceblue;
     background-color: #505050;
 }
@@ -53,6 +53,7 @@ input{
     input{
         width: 8%;
         height: 6rem;
+        font-size: xx-large;
     }
     .zero{
         width: 18%;
