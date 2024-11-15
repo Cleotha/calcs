@@ -1,0 +1,57 @@
+.container{
+    width: 90%;
+    padding: 0 5%;
+    text-align: center;
+    background-color: #1C1C1C;
+}
+.value{
+    width: 65%;
+    border-radius: 0;
+    background-color: #1C1C1C;
+    text-align: end;
+    font-size: 50px;
+}
+input{
+    width: 21%;
+    height: 5.2rem;
+    border-radius: 50%;
+    margin-left: 2%;
+    border: none;
+    margin-bottom: 1rem;
+    font-weight: 100;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: #505050;
+}
+.zero{
+    width: 44%;
+    border-radius: 40px;
+    text-align: left;
+    padding-left: 5%;
+}
+.operation{
+    color: black;
+    background-color: #D4D4D2;
+}
+.sign{
+    background-color: #FF8C00;
+}
+@media(min-width: 600px) {
+    input{
+        width: 15%;
+        height: 5rem;
+    }
+    .zero{
+        width: 33%;
+    }
+}
+@media(min-width: 1000px) {
+    input{
+        width: 10%;
+        height: 6rem;
+    }
+    .zero{
+        width: 22.5%;
+    }
+}
+
